@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: npm@smart-coordination.com
+  api_key:
+    secure: gUzD8zsHAIMy9a5Na4C1pB0nlGV4CDMH84OuyGOEUXbwTuXRdG3lxVUxHFx/eVjfYkfmrC2UU+3U9c16uakOwxk5S5i1d23iYGpEu/wmbxFf9K/l6cOdx2REq0FGhVHdji/w98ELqfCWQNaRUwcnB7NyDhvL31YeIMyYzlh9VvAFWiB6aAPQ1sDF9TBBuxOT+HSyDYZfOj0kNqYKW8seCibB35F1mVydk25t1TGuClTsuYfmHqTyzLMlgYY04Xo/BN9+OnCekZVtTKabYpO85mgzHqQ2TJYDL0P3FS4impK6o5uNtwIawTe8ItUUrGnc8RDaHifXZdMjw2KkU71bldN/32+66httniplbTqp5++YpLTrI0kUbCoNJTIaoN6gEvUXVZ2ouiLZB5TqJT37EJDdVgj6/2fGBq1j44PFZvPxqDhbHyNGUikG7iud29P1gFupAwmIiTAl8IQStMeKDiOwYFoU61m/ep2FAtQkNc10ssy1Q01tf4gkprFEw2rMoIfjLJUwSbuVOFJ2R2xujKE2ArSh7f6Asm8D5b6RFNYI0JVB0Q3Z9U+XAByr7NYxTRddIcdQ3xZqJuA6qKq9LblBBmEwj0SnP/xDvTmHA6SP+OMou/Fp6R2+a2V37KJnsyo2V2W2byjzKKNmHdPF9gDQzWr82XGoepGBFgkYFqM=
+  on:
+    tags: true
+    repo: rawphoto/rawphoto-npm
