@@ -1,11 +1,11 @@
 language: node_js
 before_install:
-  - nvm install stable
-  - node -v
-  - npm -v
-  - npm install -g gulp
-  - npm install gulp
-  - npm install gulp-typescript
+- nvm install stable
+- node -v
+- npm -v
+- npm install -g gulp
+- npm install gulp
+- npm install gulp-typescript
 deploy:
   provider: npm
   email: npm@smart-coordination.com
@@ -14,3 +14,6 @@ deploy:
   on:
     tags: true
     repo: rawphoto/rawphoto-npm
+notifications:
+  slack:
+    secure: mO8O+QuOhhZI2vUFHwRm2UpJyhkWEUhKPw0bMHp+CEdwejwg+HHpEkQo1PpKWmxD+B8LyG+1+dRPEWcpUui0IHgP2Anvok2CI1YJRU0Wa7Ia8oEDATI1pJV1felG4EriFlQ4tE8KuGtuDEKEpImVC6K0ut0tVreFr/CJxYUBQUVKUIVwTDl2KSgqppAYkAd24xrDqIBajNP5YrFImoOGS88GyEtikHsZdxZurIsmzL+/0u7hnxkMaNBQkUFcYMcCLB4JRCaVVKC0+9ZnRua8XqRadkcXn+IDGJL+NKSwWov66jmaWWKBZi6giQuelySVQ8ssjkJpJi7E8Hnj+GcqI1BqWmCYzujFDLG9HhyLV33LcsMtZdOJuBNxWbATQq5R55D14eBs8hWX7dQ9R83Vt5g9pjOmvYlr3nOTRDkDY2CFfe3tRoIUbrh6HCdl5wnnIv4pI+I7BtQ2YNKyHHm/Gjlb4h81RC5kTOGoqdNLVWobq28KTpyva33GCZ693q4+rWtYjxu5XXyqMHXgZlmFGYtTOG0STs5AHtkYB22BBWpjD+WGEqUIruEUOHbCndsnwoKDpfby1mdi7cgI6jGe3447brYH2AKhx8TO74UWa6PEAl1FuM9vshSOSRqm2IyBNsAMPCL+Zdpaj6MgDy4RUzdWDLXr/zFdQkxYkkpJKrc=
