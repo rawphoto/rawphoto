@@ -1,6 +1,6 @@
 {
   "name": "rawphoto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "npm module for access to the rawphoto.com API",
   "main": "index.js",
   "scripts": {
